@@ -1,5 +1,5 @@
-from core.agent_loop import run_once
-from core.session import Session
+from core.agent_loop.loop import run_once
+from core.session.session import Session
 
 def test_run_once_returns_string():
     out = run_once("hello")
